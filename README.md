@@ -1,6 +1,6 @@
-# Resend with Example
+# Resend with PHP Mailer
 
-This example shows how to use Resend with [Example](https://example.com).
+This example shows how to use Resend with [PHPMailer](https://github.com/PHPMailer/PHPMailer).
 
 ## Prerequisites
 
@@ -11,19 +11,25 @@ To get the most out of this guide, you’ll need to:
 
 ## Instructions
 
-1. Replace `re_123456789` on `example.ts` with your API key.
+1. Replace `re_123456789` on `index.php` with your API key.
 
 2. Install dependencies:
 
-  ```sh
-TBD
-  ```
+```bash
+composer install
+```
 
 3. Execute the following command:
 
-  ```sh
-TBD
-  ```
+```bash
+php -S 127.0.0.1:8000
+```
+
+4. Open URL in the browser:
+
+```
+http://127.0.0.1:8000
+```
 
 ## License
 

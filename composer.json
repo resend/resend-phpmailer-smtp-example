@@ -1,0 +1,10 @@
+{
+    "name": "resend/resend-phpmailer-smtp-example",
+    "description": "Resend PHPMailer SMTP example",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.9.2"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+}
