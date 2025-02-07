@@ -15,7 +15,7 @@ try {
     $mail->Password = 're_123456789';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
-    
+
     // Set email format to HTML
     $mail->isHTML(true);
 
@@ -26,11 +26,12 @@ try {
 
     $mail->send();
 
-    // Log the successlly sent message
-    echo 'Email successlly sent';
+    // Log the successfully sent message
+    echo 'Email successfully sent';
 }
-    // Catch any errors during sending
-    catch (Exception $e) {
-    echo 'Message could not be sent. ';
-    echo ' Error: ' . $mail->ErrorInfo;
+catch (Exception $e) {
+    // Log the detailed error for debugging
+    error_log('Mailer Error: ' . $mail->ErrorInfo);
+    // Show a generic error message to the user
+    echo 'There was an error sending the email.';
 }
