@@ -1,10 +1,13 @@
 {
-    "name": "resend/resend-phpmailer-smtp-example",
-    "description": "Resend PHPMailer SMTP example",
-    "type": "project",
-    "require": {
-        "phpmailer/phpmailer": "^6.9.2"
-    },
-    "license": "MIT",
-    "minimum-stability": "stable"
+	"name": "resend/resend-phpmailer-smtp-example",
+	"description": "Resend PHPMailer SMTP example",
+	"type": "project",
+	"scripts": {
+		"start": "php -S localhost:8000"
+	},
+	"require": {
+		"phpmailer/phpmailer": "^6.9.2"
+	},
+	"license": "MIT",
+	"minimum-stability": "stable"
 }

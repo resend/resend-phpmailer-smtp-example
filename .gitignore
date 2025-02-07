@@ -1,6 +1,6 @@
-# Mac OS X dumps these all over the place.
+# macOS
 .DS_Store
 
-# Ignore the /vendor/ directory and composer.lock.
+# PHP
 /vendor/
 composer.lock

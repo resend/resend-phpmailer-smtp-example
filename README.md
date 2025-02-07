@@ -22,7 +22,7 @@ composer install
 3. Execute the following command:
 
 ```bash
-php -S 127.0.0.1:8000
+composer run start
 ```
 
 4. Open URL in the browser:
