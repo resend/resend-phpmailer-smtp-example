@@ -2,6 +2,7 @@
 
 // Include Composer autoload file to load PHPMailer classes
 require __DIR__ . '/vendor/autoload.php';
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -28,8 +29,7 @@ try {
 
     // Log the successfully sent message
     echo 'Email successfully sent';
-}
-catch (Exception $e) {
+} catch (Exception $e) {
     // Log the detailed error for debugging
     error_log('Mailer Error: ' . $mail->ErrorInfo);
     // Show a generic error message to the user
